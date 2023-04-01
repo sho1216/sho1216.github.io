@@ -5,6 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
+    /*animation for body */
+    @keyframes slideInRight {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
 		/* maroon color scheme */
 		:root {
 			--primary-color: #800000; 
@@ -13,6 +22,7 @@
 		}
 		body {
 			font-family: Arial, sans-serif;
+      animation: 1s ease-out 0s 1 slideInLeft;
 			margin: 0;
 			padding: 0;
 			background-color: var(--secondary-color);
@@ -20,23 +30,27 @@
 
 		h1 {
 			font-size: 36px;
+      animation: 1s ease-out 0s 1 slideInLeft;
 			color: var(--primary-color);
 			margin-top: 0;
 		}
 
 		h2 {
 			font-size: 24px;
+      animation: 1s ease-out 0s 1 slideInLeft;
 			color: var(--primary-color);
 		}
 
 		p {
 			font-size: 18px;
+      animation: 1s ease-out 0s 1 slideInLeft;
 			line-height: 1.5;
 			color: #555;
 		}
 
 		a {
 			color: var(--primary-color);
+      animation: 1s ease-out 0s 1 slideInLeft;
 			text-decoration: none;
 			border-bottom: 2px solid var(--primary-color);
 		}
@@ -51,12 +65,14 @@
 			margin: 0 auto;
 			padding: 20px;
 			background-color: var(--secondary-color);
+      animation: 1s ease-out 0s 1 slideInLeft;
 			box-shadow: 0 0 5px rgba(0,0,0,0.3);
 		}
 
 		.grid {
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      animation: 1s ease-out 0s 1 slideInLeft;
 			grid-gap: 20px;
 			margin-top: 20px;
 		}
