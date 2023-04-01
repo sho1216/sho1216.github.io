@@ -6,9 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
     /*animation for body */
-    @keyframes slideInRight {
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    @keyframes slideInLeft {
         0% {
-          transform: translateX(100%);
+          transform: translateX(-100%);
         }
         100% {
           transform: translateX(0);
@@ -210,7 +216,7 @@
 		<p>Hi! My name is Sandra Ho and I'm a senior @ CMU studying business administration and computer science :)</p>
 		<div class="grid">
 			<div class="aboutme">
-				<img src="https://www.newinterestingfacts.com/wp-content/uploads/2023/01/maine-coon-cats-735x490.jpg" alt="Cat">
+				<img src="https://www.newinterestingfacts.com/wp-content/uploads/2023/01/maine-coon-cats-735x490.jpg" alt="Cat" class="center">
 				<h3>Things I Love & Who I am</h3>
 				<p>I love cats.</p>
       </div>
