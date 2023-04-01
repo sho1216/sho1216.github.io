@@ -146,92 +146,58 @@
 			text-decoration: none;
 		}
 
-        /* Add some basic styles to the button */
-        .button {
-        border-radius: 4px;
-        background-color: var(--pink-color);
-        border: none;
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-      }
+    /* Add some basic styles to the button */
+    .button {
+  padding: 5px;
+  width: 100px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #cea4d8;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
 
-      /* Define the animation */
-      @keyframes pulse {
-        0% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.05);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-    .button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-    }
+.button:hover {background-color: #8d3e8e}
 
-    .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-
-    .button:hover span {
-      padding-right: 25px;
-    }
-
-    .button:hover span:after {
-      opacity: 1;
-      right: 0;
-    }
-
-
-    
+.button:active {
+  background-color: #5c286c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+        
 	</style>
 </head>
 <body>
-    <a href="index.html">
-        <div class="button">Home</div>
-      </a>
-    <br>
-    <br>
-    <br>
-    <a href="sandra.html">
-      <div class="button">Contact</div>
-    </a>
-    <br>
-    <br>
-    <br>
-    <a href="hobbies.html">
-      <div class="button">Hobbies</div>
-    </a>
-    <br>
-    <br>
-    <br>
-    <a href="school.html">
-      <div class="button">School</div>
-    </a>
-      <div class="container">
-          <h1>Hobbies</h1>
-        <div class="hobbies">
-                  <img src="https://www.newinterestingfacts.com/wp-content/uploads/2023/01/maine-coon-cats-735x490.jpg" alt="Cat">
-                  <h2>Hobbies</h2>
-                  <p>I enjoy hiking, running, playing guitar, and baking (especially brownies)!</p>
-        </div>
-        </div>
-        </body>
-        </html>
-      
+  
+  <a href="index.html">
+    <div class="button">Home</div>
+  </a>
+  <br>
+  <a href="sandra.html">
+    <div class="button">Contact</div>
+  </a>
+  <br>
+  <a href="hobbies.html">
+    <div class="button">Hobbies</div>
+  </a>
+  <br>
+  <a href="school.html">
+    <div class="button">School</div>
+  </a>
+
+	<div class="container">
+		<h1>Sandra Ho</h1>
+		<p>Hi! My name is Sandra Ho and I'm a senior @ CMU studying business administration and computer science :)</p>
+		<div class="grid">
+  <div class="hobbies">
+            <img src="https://www.newinterestingfacts.com/wp-content/uploads/2023/01/maine-coon-cats-735x490.jpg" alt="Cat">
+            <h2>School</h2>
+            <p>Senior @ CMU graduating in May of 2022</p>
+  </div>
+  </div>
+  </body>
+  </html>
